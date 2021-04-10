@@ -1,0 +1,41 @@
+1. 函数 : 传参方式和传参特点
+   类 ： 继承 ， 类之间如何配合使用
+
+2. markdown使用 学习  （今晚串讲内容）
+===========================================
+Linux 训练：
+
+1. 绝对路径 表达 主目录下 Linux 中有个 Linux.md
+/home/tarena/Linux/Linux.md
+
+2. 相对路径 表达 在主目录下 找 Linux 下的 Linux.md
+Linux/Linux.md   -> ./Linux/Linux.md
+
+3. 相对路径   主目录|-- Linux （这里）
+               |-- myfile - hello.py
+在Linux下找到 hello.py
+
+../myfile/hello.py
+
+
+4. 在/usr 文件夹中有没有文件名字带python的文件
+
+   find /usr -name *python*
+
+5.找出第一阶段第三天的文件夹中带有homework文件
+
+   ls month01/day03 | grep "homework"
+
+作业：
+1. 今天命令熟练一遍
+
+2.
+在主目录的文档下建立 stage01目录
+将第一阶段老师给的所有内容 使用 tar 压缩为 bz2的格式
+将这个压缩包放到 stage01下面
+
+
+
+
+
+
